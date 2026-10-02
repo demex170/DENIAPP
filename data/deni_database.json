@@ -1,0 +1,464 @@
+{
+  "users": [
+    {
+      "id": "user-admin-1",
+      "email": "demetree105@gmail.com",
+      "firstName": "დემეტრე",
+      "lastName": "დევდარიანი",
+      "phone": "579089719",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "role": "admin",
+      "createdAt": "2026-01-10T10:00:00.000Z",
+      "passwordHash": "02119ab9422082fb86b7c1b1cb7a034c1284360034f41c9dcc408e6ec5b56fd0d55fcb5759e0abc45fecf88fc238d37a92c7bd8d67679a2512813fa2b48f0d9d",
+      "salt": "0cd58e1937c60a49605ef6c29c873022"
+    },
+    {
+      "id": "user-customer-1",
+      "email": "nino@example.ge",
+      "firstName": "ნინო",
+      "lastName": "აბაშიძე",
+      "phone": "599112233",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+      "role": "customer",
+      "createdAt": "2026-02-15T12:00:00.000Z",
+      "passwordHash": "98ea059c164d7cc71c267fd561bfed16f16bfcb5a4b55fb44fba3912a422891e28f44c38dee30df011e076a6c5a5058863941a881df8d241ca941d42b850f3c6",
+      "salt": "5b966fd97c6eaf315723f589da1d1c6c"
+    }
+  ],
+  "invitations": [
+    {
+      "id": "inv-wedding-1",
+      "userId": "user-customer-1",
+      "slug": "giorgi-nino-2026",
+      "eventType": "wedding",
+      "templateId": "wedding-classic",
+      "packageType": "premium",
+      "status": "published",
+      "title": "გიორგი & ნინო — ქორწილი",
+      "coupleOrHostNames": "გიორგი & ნინო",
+      "secondaryNames": "გიორგი მახარაძე და ნინო აბაშიძე",
+      "eventDate": "2026-10-24",
+      "eventTime": "15:00",
+      "eventTimeEnd": "23:30",
+      "venueName": "შატო მუხრანი",
+      "venueAddress": "მუხრანი, მცხეთა-მთიანეთი",
+      "venueCity": "მცხეთა",
+      "googleMapsUrl": "https://maps.google.com/?q=Chateau+Mukhrani",
+      "locationNotes": "ცერემონიალი დაიწყება ისტორიულ ბაღში, რის შემდეგაც გადავინაცვლებთ მთავარ დარბაზში.",
+      "heroMessage": "სიყვარულით გეპატიჟებით ჩვენი ცხოვრების უმნიშვნელოვანეს დღეს",
+      "description": "ჩვენთვის დიდი პატივი და სიხარული იქნება, თუ ამ განსაკუთრებულ დღეს გაიზიარებთ ჩვენთან ერთად. გელოდებით სიყვარულით!",
+      "coverImage": "/src/assets/images/hero_wedding_invitation_1790950174890.jpg",
+      "heroImage": "/src/assets/images/hero_wedding_invitation_1790950174890.jpg",
+      "storyTitle": "ჩვენი ისტორია",
+      "storyContent": "ყველაფერი 4 წლის წინ, თბილისის ძველ უბანში შემთხვევითი შეხვედრით დაიწყო. მას შემდეგ ყოველი დღე სავსეა ერთგულებით, სიცილითა და ურთიერთპატივისცემით.",
+      "countdownEnabled": true,
+      "countdownMessage": "ქორწილის დაწყებამდე დარჩა:",
+      "timeline": [
+        {
+          "id": "t1",
+          "time": "15:00",
+          "title": "სტუმრების მიღება & Welcome Drink",
+          "description": "მსუბუქი ჯაზი, ცქრიალა ღვინო და სასიამოვნო ატმოსფერო ბაღში."
+        },
+        {
+          "id": "t2",
+          "time": "16:00",
+          "title": "ჯვრისწერის საზეიმო ცერემონია",
+          "description": "ფიცის დადება და ბეჭდების გაცვლა ღია ცის ქვეშ."
+        },
+        {
+          "id": "t3",
+          "time": "17:30",
+          "title": "სადღესასწაულო ფოტოსესია",
+          "description": "სტუმრებთან ერთად სამახსოვრო ფოტოების გადაღება."
+        },
+        {
+          "id": "t4",
+          "time": "19:00",
+          "title": "გრანდიოზული გალა ვახშამი",
+          "description": "ქართული და ევროპული კერძები, ტრადიციული სადღეგრძელოები."
+        },
+        {
+          "id": "t5",
+          "time": "21:30",
+          "title": "საქორწილო ტორტის გაჭრა & ფოიერვერკი",
+          "description": "საზეიმო კულმინაცია."
+        },
+        {
+          "id": "t6",
+          "time": "22:00",
+          "title": "After-Party & DJ Set",
+          "description": "ცეკვები და გართობა გვიან ღამემდე."
+        }
+      ],
+      "gallery": [
+        {
+          "id": "g1",
+          "url": "/src/assets/images/hero_wedding_invitation_1790950174890.jpg",
+          "caption": "ჩვენი პირველი ერთობლივი მოგზაურობა",
+          "isCover": true
+        },
+        {
+          "id": "g2",
+          "url": "/src/assets/images/category_birthday_party_1790950197854.jpg",
+          "caption": "ნიშნობის საღამო"
+        },
+        {
+          "id": "g3",
+          "url": "/src/assets/images/category_party_celebration_1790950219994.jpg",
+          "caption": "მეგობრებთან ერთად"
+        }
+      ],
+      "dressCode": {
+        "type": "Black Tie",
+        "description": "ქალბატონებისთვის: საღამოს გრძელი კაბები პასტელურ ან კლასიკურ ტონებში. მამაკაცებისთვის: სმოკინგი ან კლასიკური მუქი კოსტიუმი.",
+        "palette": [
+          "#0f172a",
+          "#1e293b",
+          "#e2e8f0",
+          "#b45309",
+          "#fef3c7"
+        ]
+      },
+      "faqs": [
+        {
+          "id": "f1",
+          "question": "როდემდე შეგვიძლია RSVP დადასტურება?",
+          "answer": "გთხოვთ დაადასტუროთ თქვენი მობრძანება 15 ოქტომბრამდე, რათა ზუსტად განვსაზღვროთ სტუმრების რაოდენობა."
+        },
+        {
+          "id": "f2",
+          "question": "არის თუ არა ადგილზე ავტოსადგომი?",
+          "answer": "დიახ, შატო მუხრანის ტერიტორიაზე მოწყობილია უფასო და დაცული ავტოსადგომი 150 ავტომობილზე."
+        },
+        {
+          "id": "f3",
+          "question": "შესაძლებელია თუ არა ბავშვებთან ერთად მობრძანება?",
+          "answer": "დიახ, ღონისძიებაზე იმუშავებს ბავშვთა ანიმატორთა კუთხე."
+        }
+      ],
+      "rsvpSettings": {
+        "enabled": true,
+        "deadlineDate": "2026-10-15",
+        "maxPlusGuests": 2,
+        "allowChildren": true,
+        "customQuestion": "გაქვთ თუ არა განსაკუთრებული კვებითი ალერგია / პრეფერენცია?"
+      },
+      "premiumFeatures": {
+        "animatedIntro": true,
+        "introTitle": "გიორგი & ნინო",
+        "introSubtitle": "24 ოქტომბერი, 2026",
+        "musicEnabled": true,
+        "musicUrl": "",
+        "guestbookEnabled": true,
+        "confettiEffect": true
+      },
+      "viewsCount": 343,
+      "createdAt": "2026-03-01T10:00:00.000Z",
+      "updatedAt": "2026-03-15T15:30:00.000Z"
+    },
+    {
+      "id": "inv-baptism-1",
+      "userId": "user-customer-1",
+      "slug": "andria-baptism-2026",
+      "eventType": "baptism",
+      "templateId": "baptism-soft",
+      "packageType": "standard",
+      "status": "published",
+      "title": "პატარა ანდრიას ნათლობა",
+      "coupleOrHostNames": "ანდრია",
+      "secondaryNames": "მშობლები: დავითი და მარიამი",
+      "eventDate": "2026-11-08",
+      "eventTime": "13:00",
+      "venueName": "სვეტიცხოვლის საკათედრო ტაძარი",
+      "venueAddress": "მცხეთა, არსუკიძის ქუჩა",
+      "venueCity": "მცხეთა",
+      "googleMapsUrl": "https://maps.google.com/?q=Svetitskhoveli+Cathedral",
+      "locationNotes": "ნათლობის შემდეგ გადავინაცვლებთ რესტორან „მარანში“ სადღესასწაულო სუფრაზე.",
+      "heroMessage": "სიხარულით გიწვევთ ჩვენი ანგელოზის გაქრისტიანების დღეს",
+      "description": "გვსურს ეს მადლიანი და წმინდა დღე გავატაროთ ჩვენს უსაყვარლეს ადამიანებთან ერთად.",
+      "coverImage": "/src/assets/images/category_baptism_ceremony_1790950186319.jpg",
+      "heroImage": "/src/assets/images/category_baptism_ceremony_1790950186319.jpg",
+      "countdownEnabled": true,
+      "countdownMessage": "ნათლობამდე დარჩა:",
+      "timeline": [
+        {
+          "id": "tb1",
+          "time": "13:00",
+          "title": "საზეიმო ნათლობის საიდუმლო",
+          "description": "სვეტიცხოვლის ტაძარი"
+        },
+        {
+          "id": "tb2",
+          "time": "15:00",
+          "title": "სადღესასწაულო ტრაპეზი",
+          "description": "რესტორანი მარანი, მცხეთა"
+        }
+      ],
+      "gallery": [
+        {
+          "id": "gb1",
+          "url": "/src/assets/images/category_baptism_ceremony_1790950186319.jpg",
+          "caption": "ჩვენი პატარა ანდრია",
+          "isCover": true
+        }
+      ],
+      "dressCode": {
+        "type": "White / Pastel",
+        "description": "სასურველია ღია, მშვიდი და პასტელური ფერების სამოსი.",
+        "palette": [
+          "#ffffff",
+          "#f0fdf4",
+          "#e0f2fe",
+          "#fef3c7"
+        ]
+      },
+      "faqs": [
+        {
+          "id": "fb1",
+          "question": "ტაძარში შესვლის წესი",
+          "answer": "ქალბატონებისთვის რეკომენდებულია თავშალი და მოკრძალებული სამოსი."
+        }
+      ],
+      "rsvpSettings": {
+        "enabled": true,
+        "deadlineDate": "2026-11-01",
+        "maxPlusGuests": 3,
+        "allowChildren": true
+      },
+      "premiumFeatures": {
+        "animatedIntro": false,
+        "musicEnabled": false,
+        "guestbookEnabled": true,
+        "confettiEffect": true
+      },
+      "viewsCount": 120,
+      "createdAt": "2026-03-10T12:00:00.000Z",
+      "updatedAt": "2026-03-10T12:00:00.000Z"
+    },
+    {
+      "id": "inv-birthday-1",
+      "userId": "user-admin-1",
+      "slug": "salome-30th-birthday",
+      "eventType": "birthday",
+      "templateId": "birthday-elegant",
+      "packageType": "premium",
+      "status": "draft",
+      "title": "სალომეს 30 წლის იუბილე",
+      "coupleOrHostNames": "სალომე",
+      "eventDate": "2026-12-05",
+      "eventTime": "20:00",
+      "venueName": "Lounge 360",
+      "venueAddress": "თბილისი, რუსთაველის გამზ. 42",
+      "venueCity": "თბილისი",
+      "googleMapsUrl": "https://maps.google.com/?q=Rustaveli+Avenue+42+Tbilisi",
+      "heroMessage": "30 წელი — ახალი თავგადასავლების დასაწყისი!",
+      "description": "მოდით ერთად აღვნიშნოთ ჩემი მრგვალი თარიღი გემრიელი კოქტეილებითა და საუკეთესო მუსიკით!",
+      "coverImage": "/src/assets/images/category_birthday_party_1790950197854.jpg",
+      "heroImage": "/src/assets/images/category_birthday_party_1790950197854.jpg",
+      "countdownEnabled": true,
+      "timeline": [
+        {
+          "id": "tbday1",
+          "time": "20:00",
+          "title": "Cocktails & Lounge",
+          "description": "მისალმება და საყვარელი მელოდიები"
+        },
+        {
+          "id": "tbday2",
+          "time": "22:00",
+          "title": "Party & Cake",
+          "description": "სადღესასწაულო ტორტი და ცეკვა"
+        }
+      ],
+      "gallery": [
+        {
+          "id": "gbday1",
+          "url": "/src/assets/images/category_birthday_party_1790950197854.jpg",
+          "isCover": true
+        }
+      ],
+      "dressCode": {
+        "type": "Smart Casual",
+        "description": "ბრჭყვიალა, ელეგანტური და კომფორტული საღამოს სამოსი.",
+        "palette": [
+          "#0f172a",
+          "#d97706",
+          "#ec4899",
+          "#f8fafc"
+        ]
+      },
+      "faqs": [],
+      "rsvpSettings": {
+        "enabled": true,
+        "deadlineDate": "2026-11-28",
+        "maxPlusGuests": 1,
+        "allowChildren": false
+      },
+      "premiumFeatures": {
+        "animatedIntro": true,
+        "musicEnabled": true,
+        "guestbookEnabled": true,
+        "confettiEffect": true
+      },
+      "viewsCount": 45,
+      "createdAt": "2026-03-20T08:00:00.000Z",
+      "updatedAt": "2026-03-20T08:00:00.000Z"
+    }
+  ],
+  "guests": [
+    {
+      "id": "guest-1",
+      "invitationId": "inv-wedding-1",
+      "firstName": "ნინო",
+      "lastName": "ჩხეიძე",
+      "token": "tok-nino-chkheidze-1",
+      "personalNote": "ძვირფასო ნინო, შენი დასწრება ჩვენთვის უდიდესი ბედნიერება იქნება!",
+      "rsvpStatus": "attending",
+      "guestCount": 2,
+      "comments": "მოუთმენლად ველით ამ ულამაზეს საღამოს! ❤️",
+      "customAnswer": "არავითარი ალერგია არ გვაქვს.",
+      "submittedAt": "2026-03-12T14:22:00.000Z"
+    },
+    {
+      "id": "guest-2",
+      "invitationId": "inv-wedding-1",
+      "firstName": "ლევან",
+      "lastName": "ბერიძე",
+      "token": "tok-levan-beridze-2",
+      "personalNote": "ლევან, ძმაო, შენს გარეშე ეს დღე წარმოუდგენელია!",
+      "rsvpStatus": "attending",
+      "guestCount": 2,
+      "comments": "აუცილებლად მოვალთ მე და ანი!",
+      "submittedAt": "2026-03-13T10:15:00.000Z"
+    },
+    {
+      "id": "guest-3",
+      "invitationId": "inv-wedding-1",
+      "firstName": "ირაკლი",
+      "lastName": "კალანდაძე",
+      "token": "tok-irakli-3",
+      "personalNote": "ძვირფასო ირაკლი, გელოდებით ქორწილში!",
+      "rsvpStatus": "declined",
+      "guestCount": 0,
+      "comments": "სამწუხაროდ საქართველოში არ ვიქნები იმ დროს. გილოცავთ მთელი გულით!",
+      "submittedAt": "2026-03-14T09:40:00.000Z"
+    },
+    {
+      "id": "guest-4",
+      "invitationId": "inv-wedding-1",
+      "firstName": "თამარ",
+      "lastName": "მელიქიშვილი",
+      "token": "tok-tamar-4",
+      "personalNote": "თამარ, გაგვიხარდება შენი ხილვა!",
+      "rsvpStatus": "pending",
+      "guestCount": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1001",
+      "orderNumber": "DENI-2026-1001",
+      "userId": "user-customer-1",
+      "userEmail": "nino@example.ge",
+      "userName": "ნინო აბაშიძე",
+      "invitationId": "inv-wedding-1",
+      "invitationTitle": "გიორგი & ნინო — ქორწილი",
+      "eventType": "wedding",
+      "packageType": "premium",
+      "price": 120,
+      "currency": "₾",
+      "status": "completed",
+      "createdAt": "2026-03-01T10:05:00.000Z",
+      "notes": "გადახდილია ბარათით. პრემიუმ პაკეტი გააქტიურებულია."
+    },
+    {
+      "id": "ord-1002",
+      "orderNumber": "DENI-2026-1002",
+      "userId": "user-customer-1",
+      "userEmail": "nino@example.ge",
+      "userName": "ნინო აბაშიძე",
+      "invitationId": "inv-baptism-1",
+      "invitationTitle": "პატარა ანდრიას ნათლობა",
+      "eventType": "baptism",
+      "packageType": "standard",
+      "price": 35,
+      "currency": "₾",
+      "status": "completed",
+      "createdAt": "2026-03-10T12:05:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "user-customer-1",
+      "title": "ახალი RSVP პასუხი",
+      "message": "ნინო ჩხეიძემ დაადასტურა დასწრება (2 სტუმარი).",
+      "type": "rsvp",
+      "read": false,
+      "createdAt": "2026-03-12T14:22:00.000Z",
+      "link": "/rsvps"
+    },
+    {
+      "id": "notif-2",
+      "userId": "user-customer-1",
+      "title": "ახალი მილოცვა",
+      "message": "სტუმარმა დაგიტოვათ თბილი სურვილი საქორწილო წიგნში.",
+      "type": "wish",
+      "read": false,
+      "createdAt": "2026-03-12T15:00:00.000Z",
+      "link": "/i/giorgi-nino-2026"
+    },
+    {
+      "id": "notif-3",
+      "userId": "user-customer-1",
+      "title": "მოსაწვევი გამოქვეყნდა",
+      "message": "თქვენი მოსაწვევი „გიორგი & ნინო — ქორწილი“ წარმატებით გამოქვეყნდა.",
+      "type": "publish",
+      "read": true,
+      "createdAt": "2026-03-01T10:05:00.000Z"
+    }
+  ],
+  "wishes": [
+    {
+      "id": "w-1",
+      "invitationId": "inv-wedding-1",
+      "guestName": "ნინო ჩხეიძე",
+      "message": "გილოცავთ საყვარლებო! უსაზღვრო სიყვარულს, ბედნიერებას და მუდამ ასეთ ლამაზ ერთობას გისურვებთ მთელი გულით! ✨",
+      "createdAt": "2026-03-12T15:00:00.000Z"
+    },
+    {
+      "id": "w-2",
+      "invitationId": "inv-wedding-1",
+      "guestName": "ლევან ბერიძე",
+      "message": "გიო და ნინო, ულამაზესი წყვილი ხართ! საუკეთესო ქორწილი გექნებათ, გილოცავთ! 🥂",
+      "createdAt": "2026-03-13T11:00:00.000Z"
+    }
+  ],
+  "pricing": {
+    "wedding": {
+      "standard": 80,
+      "premium": 120
+    },
+    "baptism": {
+      "standard": 35,
+      "premium": 80
+    },
+    "birthday": {
+      "standard": 50,
+      "premium": 100
+    },
+    "graduation": {
+      "standard": 70,
+      "premium": 100
+    },
+    "party": {
+      "standard": 30,
+      "premium": 50
+    },
+    "custom": {
+      "standard": 90,
+      "premium": 120
+    }
+  }
+}

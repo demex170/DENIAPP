@@ -1,0 +1,7 @@
+{
+  "name": "DENI — ონლაინ მოსაწვევები",
+  "description": "თანამედროვე და პრემიუმ ონლაინ მოსაწვევების პლატფორმა ქორწილისთვის, ნათლობისთვის, დაბადების დღისთვის და განსაკუთრებული ღონისძიებებისთვის.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
